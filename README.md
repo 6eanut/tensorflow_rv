@@ -1,5 +1,5 @@
 # tensorflow_rv
-dnf install python3-devel python3-pip patchelf openssl-devel
+dnf install python3-devel python3-pip patchelf openssl-devel cmake mold
 
 pip install numpy wheel keras_preprocessing
 
