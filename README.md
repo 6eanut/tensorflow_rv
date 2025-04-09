@@ -1,6 +1,6 @@
 
 编译命令：
-bazel build --define=build_with_mkl=false --define=enable_mkl=false --define=tensorflow_mkldnn_contraction_kernel=0 --define=build_with_mkl_dnn_v1_only=false --define=tensorflow_use_mkldnn=false --define=build_with_openmp=false --host_copt="-Wno-stringop-truncation" //tensorflow/tools/pip_package:build_pip_package --verbose_failures --jobs=4 --experimental_repo_remote_exec --experimental_cc_shared_library --cxxopt="-std=c++17" --host_cxxopt="-std=c++17" --copt="-DTF_DISABLE_CHECK_OP" --copt=-DNDEBUG --per_file_copt=.*\.cpp@-fpermissive --per_file_copt=.*\.cc@-fpermissive --copt=-Wno-error
+bazel build --define=build_with_mkl=false --define=enable_mkl=false --define=tensorflow_mkldnn_contraction_kernel=0 --define=build_with_mkl_dnn_v1_only=false --define=tensorflow_use_mkldnn=false --define=build_with_openmp=false --host_copt="-Wno-stringop-truncation" //tensorflow/tools/pip_package:build_pip_package --verbose_failures --jobs=4 --experimental_repo_remote_exec --experimental_cc_shared_library --cxxopt="-std=c++17" --host_cxxopt="-std=c++17" --copt="-DTF_DISABLE_CHECK_OP" --copt=-DNDEBUG --per_file_copt=.*\.cpp@-fpermissive --per_file_copt=.*\.cc@-fpermissive --copt=-Wno-error --copt=-Wno-deprecated-declarations
 
 参考：
 python3.9.6
