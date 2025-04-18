@@ -11,10 +11,6 @@ pip install Cython==3.0.12
 pip install MarkupSafe==3.0.2
 pip install Pillow==11.1.0
 pip install absl-py==1.4.0
-··pip install array-record==0.5.1 没有现成的any包
-ERROR: Could not find a version that satisfies the requirement array-record==0.5.1 (from versions: 0.2.0, 0.3.0, 0.4.0, 0.4.1)
-ERROR: No matching distribution found for array-record==0.5.1
-
 pip install astunparse==1.6.3
 pip install bleach==6.2.0
 pip install cachetools==5.5.2
@@ -45,18 +41,6 @@ pip install idna==3.10
 pip install immutabledict==4.2.1
 pip install importlib-metadata==8.6.1
 pip install importlib-resources==6.5.2
-··pip install jax==0.4.30
-Collecting jax==0.4.30 numpy有关？
-  Downloading jax-0.4.30-py3-none-any.whl (2.0 MB)
-     |████████████████████████████████| 2.0 MB 66 kB/s
-Requirement already satisfied: numpy>=1.22 in /root/.pyenv/versions/3.9.6/lib/python3.9/site-packages (from jax==0.4. (2.0.2)
-ERROR: Could not find a version that satisfies the requirement jaxlib<=0.4.30,>=0.4.27 (from jax) (from versions: non
-ERROR: No matching distribution found for jaxlib<=0.4.30,>=0.4.27
-WARNING: You are using pip version 21.1.3; however, version 25.0.1 is available.
-You should consider upgrading via the '/root/.pyenv/versions/3.9.6/bin/python3.9 -m pip install --upgrade pip' comman
-ERROR: Could not find a version that satisfies the requirement jaxlib==0.4.30 (from versions: none)
-ERROR: No matching distribution found for jaxlib==0.4.30
-
 pip install jaxlib==0.4.30
 pip install kaggle==1.7.4.2
 pip install keras==2.12.0
@@ -111,18 +95,20 @@ pip install werkzeug==3.1.3
 pip install wheel==0.45.1
 pip install wrapt==1.14.1
 pip install zipp==3.21.0
-
 pip install tensorboard==2.12.3
 pip install tensorboard-data-server==0.7.2
-pip install tensorflow==2.12.1
-pip install tensorflow-addons==0.23.0
 pip install tensorflow-datasets==4.9.3
+pip install tensorflow-metadata==1.17.1
+pip install array-record-0.4.1
 pip install tensorflow-estimator==2.12.0
 pip install tensorflow-hub==0.16.1
-pip install tensorflow-io-gcs-filesystem==0.37.1
-pip install tensorflow-metadata==1.17.0
-pip install tensorflow-model-optimization==0.8.0
-pip install tensorflow-text==2.12.1
 pip install tf-keras==2.15.0
-pip install tf-models-official==2.12.1
+pip install tensorflow-model-optimization==0.8.0
 pip install tf-slim==1.1.0
+
+pip install tensorflow==2.12.1
+pip install tensorflow-addons==0.23.0
+pip install tensorflow-io-gcs-filesystem==0.37.1
+pip install tensorflow-text==2.12.1
+pip install tf-models-official==2.12.1
+
